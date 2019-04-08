@@ -1,9 +1,9 @@
 # How to use
 
-Put `spark-custom-functions_2.11-0.1.jar` and `sample-data.csv` to `/tmp` folder on hdfs:
+Put `spark-custom-functions_2.11-0.1.jar` and `sample-data.csv` from `sample` folder to `/tmp` folder on hdfs:
 ```$xslt
-hadoop fs -put sample-data.csv /tmp/
-hadoop fs -put spark-custom-functions_2.11-0.1.jar /tmp/
+hadoop fs -put sample/sample-data.csv /tmp/
+hadoop fs -put sample/spark-custom-functions_2.11-0.1.jar /tmp/
 ```
 
 Start a pyspark shell:
